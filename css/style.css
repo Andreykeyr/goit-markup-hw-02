@@ -1,4 +1,9 @@
-.section-1__background {
+body {
+   max-width: 1200px;
+   padding: 24px 100px 0px 100px;
+}
+
+.section-1 {
    background-image: url(../images/ppl-office.jpg);
 }
 .email-btn {
@@ -7,3 +12,51 @@
    background-color: #4D5AE5;
    border-radius: 8px
 }
+
+section {
+   position: relative;
+}
+
+button {
+   cursor: pointer;
+}
+
+li {
+   list-style-type: none;
+}
+
+.logo {
+   font-size: 18px;
+}
+
+.a {
+   height:420px;
+   width: 360px;
+   display: inline-block;
+   padding: 0px 24px 48px 0px;
+}
+
+.a:nth-child(3n) {
+   padding-right: 0px;
+}
+
+.btn-nav {
+   margin-bottom: 72px;
+   display: flex;
+   justify-content: center;
+}
+
+.papa {
+   display: flex;
+   flex-direction: row;
+}
+
+.b {
+   height: 48px;
+   width: 116px;
+   font-size: 16px;
+   border-radius: 1px;
+   padding-right: 24px;
+}
+
+
