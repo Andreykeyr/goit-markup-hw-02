@@ -3,7 +3,7 @@
 }
 
 body {
-   font-family: "Roboto";
+   font-family: "Roboto", sans-serif; 
    background-color: #ffffff;
    color:#434455;
 }
@@ -13,16 +13,61 @@ a {
 }
 
 .section-1 {
-   background-image: url(../images/ppl-office.jpg);
-}
-.email-btn {
-   width: 165px;
-   height: 40px;
-   background-color: #4D5AE5;
+   background:#2e2f42;
+   text-align: center;
 }
 
-section {
-   position: relative;
+.section-1__btn {
+   font-size: 56px;
+   line-height: 1.07;
+   letter-spacing: 0.02em;
+   color: #ffffff;
+}
+
+.section-1__tgp{
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+.section-3__tgp {
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: #2e2f42;
+}
+
+.section-3__list {
+   background-color: #FFFFFF;
+   
+}
+
+.section-4 {
+   background-color: #F4F4FD;
+}
+.email-btn {
+   background-color: #4D5AE5;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #ffffff;
+}
+
+.email-btn:hover, .email-btn:focus {
+   background-color: #404BBF
+}
+
+.h2 {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
 }
 
 button {
@@ -60,15 +105,17 @@ button {
    color: #2e2f42;
 }
 
+.nav-btn__1, .nav-btn__1:hover {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
 .nav-btn:hover, .nav-btn:focus{
    color: #404bbf
 }
-
-.a {
-   height:420px;
-   width: 360px;
-}
-
 
 
 .contacts {
@@ -76,11 +123,7 @@ button {
 }
 
 
-
-
 .b {
-   height: 48px;
-   width: 116px;
    font-size: 16px;
 }
 
