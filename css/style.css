@@ -1,6 +1,10 @@
 body {
-   max-width: 1200px;
-   padding: 24px 100px 0px 100px;
+   color:#434455;
+   background-color: #ffffff
+}
+
+a {
+   text-decoration: none;
 }
 
 .section-1 {
@@ -21,42 +25,58 @@ button {
    cursor: pointer;
 }
 
-li {
-   list-style-type: none;
-}
-
 .logo {
    font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
+
+}
+
+.link {
+   text-decoration: none;
+}
+
+span {
+   color: #2e2f42;
+
+}
+
+.list {
+   list-style: none;
+}
+
+.nav-btn {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+
+.nav-btn:hover, .nav-btn:focus{
+   color: #404bbf
 }
 
 .a {
    height:420px;
    width: 360px;
-   display: inline-block;
-   padding: 0px 24px 48px 0px;
 }
 
-.a:nth-child(3n) {
-   padding-right: 0px;
+
+
+.contacts {
+   font-style: normal
 }
 
-.btn-nav {
-   margin-bottom: 72px;
-   display: flex;
-   justify-content: center;
-}
 
-.papa {
-   display: flex;
-   flex-direction: row;
-}
+
 
 .b {
    height: 48px;
    width: 116px;
    font-size: 16px;
-   border-radius: 1px;
-   padding-right: 24px;
 }
 
 
