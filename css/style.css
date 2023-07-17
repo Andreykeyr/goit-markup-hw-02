@@ -125,7 +125,7 @@ button {
    color: #404bbf;
 }
 
-.nav-btn-1 {
+.zaebalo {
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
@@ -133,7 +133,7 @@ button {
    color: #434455;
 }
 
-.nav-btn-1:hover, .nav-btn-1:focus{
+.zaebalo:hover, .zaebalo:focus{
    color: #404bbf;
 }
 
