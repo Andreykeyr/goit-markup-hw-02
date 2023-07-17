@@ -12,26 +12,26 @@ a {
    text-decoration: none;
 }
 
-.section-1 {
+.section-one {
    background:#2e2f42;
    text-align: center;
 }
 
-.section-1__btn {
+.section-one-btn {
    font-size: 56px;
    line-height: 1.07;
    letter-spacing: 0.02em;
    color: #ffffff;
 }
 
-.section-1__tgp{
+.section-one-tgp{
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
 }
 
-.section-3__tgp {
+.section-three-tgp {
    font-size: 36px;
    line-height: 1.11;
    text-align: center;
@@ -40,12 +40,12 @@ a {
    color: #2e2f42;
 }
 
-.section-3__list {
+.section-three-list {
    background-color: #FFFFFF;
    
 }
 
-.section-4 {
+.section-four {
    background-color: #F4F4FD;
 }
 .email-btn {
@@ -105,7 +105,7 @@ button {
    color: #2e2f42;
 }
 
-.nav-btn__1 {
+.nav-btn-1 {
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
