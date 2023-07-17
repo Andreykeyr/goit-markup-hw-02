@@ -34,16 +34,12 @@ a {
 .section-three-tgp {
    font-size: 36px;
    line-height: 1.11;
-   text-align: center;
    letter-spacing: 0.02em;
+   text-align: center;
    text-transform: capitalize;
    color: #2e2f42;
 }
 
-.section-three-list {
-   background-color: #FFFFFF;
-   
-}
 
 .section-four {
    background-color: #F4F4FD;
@@ -151,4 +147,43 @@ button {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color:#F4F4FD;
+}
+
+.list-three {
+   background-color: #FFFFFF;
+}
+
+portfolio 
+
+.btn-port {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #4d5ae5;
+   background-color:  #F4F4FD;
+   cursor: pointer
+}
+
+.btn-port:hover, .btn-port:focus {
+   color: #FFFFFF;
+   background-color: #404BBF
+
+}
+
+.h-portfolio {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+
+}
+
+.p-portfolio {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
 }
